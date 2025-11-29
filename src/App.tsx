@@ -1,6 +1,7 @@
 import { Suspense, lazy } from "react";
 import { Routes, Route } from "react-router-dom";
 import RootLayout from "./layouts/RootLayout.tsx";
+import "./App.css"
 
 const Home = lazy(() => import("./pages/Home.tsx"));
 
