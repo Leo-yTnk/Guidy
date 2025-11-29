@@ -4,9 +4,9 @@ export default function RootLayout() {
     <>
         <div className="app">
             <nav>
-                <NavLink to="/" end>Home</NavLink>
-                <NavLink to="/subjects">Subjects</NavLink>
-                <NavLink to="/settings">Settings</NavLink>
+                <NavLink to="/" end>
+                    <span>Home</span>
+                </NavLink>
             </nav>
 
             <main>
